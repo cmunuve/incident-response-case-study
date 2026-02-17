@@ -1,4 +1,4 @@
-# Incident-response-case-study
+# Incident Response Investigation
 Simulated security incident investigation documenting analysis, timeline, IOCs and response actions.
 # Incident response case study
 This project simulates a small-scale security incident and documents the investigation, analysis, and response process from a SOC perspective.
