@@ -1,0 +1,15 @@
+# Investigation plan
+Upon receiving the report of unusual system behavior, the investigation will follow a structured approach to determine the root cause.
+## Initial steps
+-Confirm the user's reported symptoms 
+-Identify recent changes or unusual activity
+-Determine the scope 
+## Evidence to review
+-Running processes
+-Recent logon activity
+-Installed or recently modified files
+## Investigation goals
+-Identify indicators of compromise
+-Determine whether malicious activity occurred
+-Assess impact and recommend containment actions
+A structured approach helps prevent overlooking key evidence during early stage incident response
