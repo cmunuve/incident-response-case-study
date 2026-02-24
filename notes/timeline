@@ -1,0 +1,16 @@
+# Investigation timeline
+The following timeline reflects observed activity based on system logs and user report.
+Times are approximate and reconstructed from available evidence.
+## Timeline of events
+**8:41**
+User reports system behaving slower than usual. N o prior issues reported earlier that morning.
+**8:46**
+Security logs show repeated authentication failures for the same account within a short interval.
+**8:48**
+A successful login occurs shortly after the failed attempts. Source appears inconsistent with normal usage pattern.
+**8:51**
+A new background process is spawned. Process name not previously observed on this system during baseline review.
+**8:54**
+Outbound connection initiated to an external address. The traffic pattern does not match typical user activity.
+### Initial observations
+The sequence suggests that access may have been gained after several failed attempts, followed by execution of an unfamiliar process and possible external communication. Further log review is required to confirm intent and scope.
