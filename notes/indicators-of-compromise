@@ -1,0 +1,15 @@
+# Indicators of Compromise (IOCs)
+The following artifacts were identified during timeline review as potentially indicative of malicious activity.
+## 1. Multiple failed authentication attempts
+A short burst of failed login attempts occurred before a successful login.  
+This pattern may indicate credential guessing or brute-force activity.
+## 2. Successful login from an unfamiliar source
+The successful authentication following multiple failures suggests possible unauthorized access especially if the source differs from normal usage patterns.
+## 3. Unrecognized process execution
+A background process was observed that had not been previously documented in the system baseline activity.  
+Unexpected process creation after authentication can indicate payload execution.
+## 4. Outbound Network Connection to External Address
+An outbound connection occurred shortly after the new process was launched.  
+Unexpected external communication may indicate command-and-control (C2) activity or data exfiltration attempts.
+
+These indicators individually may not confirm compromise but their sequence and correlation increase the likelihood of malicious activity.
