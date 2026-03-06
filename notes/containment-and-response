@@ -1,0 +1,17 @@
+# Containment and Response Actions
+Based on the analysis of suspicious system activity, several containment and response measures are recommended to limit potential impact and preserve evidence.
+  
+## Immediate Containment Steps
+- Temporarily isolate the affected system from the network to prevent further external communication.
+- Disable or reset credentials associated with the suspicious login activity.
+- Preserve relevant system logs to ensure that evidence is not overwritten.
+  
+## Investigation Support Actions
+- Review authentication logs to identify additional unauthorized access attempts.
+- Examine running processes and scheduled tasks for unknown or suspicious activity.
+- Inspect outbound network connections to determine the destination of external communication.
+
+## Monitoring and Follow-Up
+- Continue monitoring authentication events for similar login patterns.
+- Review endpoint security alerts for additional indicators of compromise.
+- Document all findings for escalation if malicious activity is confirmed.
