@@ -1,0 +1,15 @@
+# Incident Summary
+## Overview
+This investigation reviewed a sequence of suspicious system activities, including repeated failed authentication attempts, a successful login from an unfamiliar source, execution of a previously unobserved process, and outbound network communication.
+
+## Key Findings
+The timeline suggests a possible unauthorized access event followed by system activity that may indicate execution of additional processes and external communication.
+Each individual event may have benign explanations, however the correlation and timing of these events increases the likelihood that the activity may not be normal system behavior.
+
+## Actions Taken
+Recommended containment steps include isolating the affected system, resetting potentially compromised credentials, and preserving system logs for further forensic review.
+Additional monitoring of authentication events and system processes was also recommended.
+
+## Conclusion
+At the current stage, the activity is classified as **suspicious but not conclusively malicious**.  
+Further forensic analysis would be required to confirm whether a compromise occurred.
